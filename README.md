@@ -3,6 +3,8 @@ This project implements a suite of classical global path planning algorithms—A
 
 It showcases core algorithmic strategies for navigating known environments, forming the backbone of high-level decision-making in autonomous ground robots, warehouse AGVs, and planetary rovers.
 
+<img src = "planningglobal.png">
+
 # What This Project Demonstrates
 - Strong grasp of graph-based search algorithms and their applications in global motion planning.
 - Capability to design and implement modular, scalable planners suitable for robotics simulation and real-time deployment.
