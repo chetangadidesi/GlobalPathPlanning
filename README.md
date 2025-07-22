@@ -39,20 +39,6 @@ Breadth-First Search (BFS)
 Depth-First Search (DFS)
 - A non-optimal search useful for completeness but not path quality. It dives deep along one path before backtracking and is included here for contrast and academic comparison.
 
-# Structure
-
-global_planners_compare/
-│
-├── main.py                    # Entry point to run all planners sequentially
-├── astar.py                  # A* planner
-├── dijkstra.py               # Dijkstra’s planner
-├── bfs.py                    # Breadth-First Search
-├── dfs.py                    # Depth-First Search
-├── generic_planning.py       # Shared search loop and utilities
-├── planner_base.py           # Abstract base class for all planners
-├── grid_map_utils.py         # Map generation, obstacle setup, and goal sampling
-└── utils.py                  # Helper functions (heuristics, collision check, etc.)
-
 # Use Cases
 - Benchmarking classical path planners for mobile robotics
 - Integration with SLAM/local planners in autonomy stacks
